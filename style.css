@@ -7,6 +7,17 @@
     text-decoration: none;
 }
 
+.container {
+    background-image: url(./img/istockphoto-1289624766-1024x1024.jpg);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 img {
     width: 10rem;
     height: 10rem;
@@ -96,10 +107,9 @@ input {
 
 
 .resultado {
-    color: #ffffff;
-    text-align: left;
-    font-size: 25px;
-    margin-top: 30px;
+    color: #04bd7d;
+    text-align: center;
+    font-size: 40px;
 
 }
 
