@@ -39,7 +39,7 @@ btn.addEventListener('click', btnOnClick);
 function btnOnClick() {
     event.preventDefault();
     const sumaInputs = +input1.value - (+input2.value * +input3.value);
-    pResult.innerText = 'Total ' + sumaInputs;
+    pResult.innerText = 'Total ' + sumaInputs.toFixed(2);
 
 }
 
